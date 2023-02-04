@@ -1,0 +1,36 @@
+h1{
+    color:red
+}
+img{
+    border:solid
+}
+.header{
+    border:solid;
+    background-color: rgb(125, 232, 125);
+    display:flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.header a{
+    border: 0px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p, h2{
+    text-align: center;
+}
+a{
+    border: solid;
+}
